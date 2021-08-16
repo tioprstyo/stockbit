@@ -7,5 +7,5 @@ cd stockbit
 ## Install Package
 npm install
 
-## Ru Project
+## Run Project
 npm start
