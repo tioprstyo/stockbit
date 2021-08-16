@@ -14,7 +14,7 @@ const Header = (props) => (
                     window.location.pathname === '/' ?
             <div className="row">
                 <input type="text" placeholder="Search by keyword" onChange={props.handleChange} />
-                <button type="submit" onClick={() => props.getMovies('', props.search)}><i className="fa fa-search"></i></button>
+                <button type="submit" onClick={() => props.getMovies('', props.search ? props.search : null)}><i className="fa fa-search"></i></button>
                 </div>
                     : <div></div>
             }
